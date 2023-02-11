@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 100vw;
+    color:rgb(1, 7, 14);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: "centere";
+   
+   
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 15px;
+}
+.centered {
+    position: absolute;
+    font-size: 16px;
+    color:rgb(9, 1, 14);
+    font-family: 'Roboto', sans-serif;
+   
+  }
+  
+  
+section1{
+   max-height: 150vh; 
+   color: #63f995;
+}
+
+.section1 h1{
+    color: #082027;
+    font-size: 3rem;
+}
+.logo{
+    font-size: 2rem;
+}
+
+.travel{
+    width: 50px;
+}
+.section2{
+    padding:10px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align:center;
+}
+* {box-sizing: border-box}
+
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    width: 50%;
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit/register button */
+  .registerbtn {
+    align-item:centre;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: rgb(30, 94, 158);
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+.box{
+    padding: 10px 0;
+    color:rgb(14, 3, 3);ue;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(245, 241, 238);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    color:rgb(14, 3, 3);eblue;
+    padding: 100px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    color:rgb(14, 3, 3);blue;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+    color:rgb(14, 3, 3);}
+
+.box ul li{
+   margin: 12px 2px;
+   color:rgb(14, 3, 3);
+}
+
+.plantable{
+    display: flex;
+    color:rgb(14, 3, 3);
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+
+    padding: 23px;
+    color:rgb(1, 10, 17);
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 15px 0;
+}
